@@ -1,20 +1,21 @@
-'''登陆新平台'''
+# coding=utf-8
 New_address = 'https://lxerptest.66123123.com/'
-
-
-from driver.alldriver import choicedr
+import sys
+sys.path.append("..")
+from driver.alldriver import dr_handles
 import time
 from selenium.webdriver.common.action_chains import ActionChains
 
 
+'''登陆新平台'''
 class handles():
-    def __init__(self, driver):
-        self.dr = choicedr(driver)
+    def __init__(self, url, driver):
+        self.dr = dr_handles(url, driver)
 
+    '''用户登陆'''
     def login(self):
-        '''用户登陆'''
         self.dr.get(New_address)
-        self.dr.find_element_by_xpath('.//input[@placeholder="请输入账号"]').clear()
+        self.dr.get_element('xpath', './/input[@placeholder="请输入账号"]').clear()
         self.dr.find_element_by_xpath('.//input[@placeholder="请输入账号"]').send_keys('aaa')
         self.dr.find_element_by_xpath('.//input[@placeholder="请输入密码"]').clear()
         self.dr.find_element_by_xpath('.//input[@placeholder="请输入密码"]').send_keys('1')
@@ -32,9 +33,9 @@ class handles():
         '''商品模块操作'''
         pass
 
+    '''添加供应商'''
     def addsupplier(self):
         self.dr.implicitly_wait(3)
-        '''添加供应商'''
         self.dr.find_element_by_xpath('.//a[@href="#/supplier/supplierindex/addSupplier"]').click()
         time.sleep(2)
         self.dr.switch_to_window(self.dr.window_handles[1])
@@ -95,8 +96,8 @@ class handles():
         '''开票电话'''
         self.dr.find_element_by_xpath('.//input[@placeholder="输入姓名，字数1~15以内"]').send_keys('111')
 
+    '''供货商查询'''
     def choicesupplier(self):
-        '''供货商查询'''
         self.dr.find_element_by_xpath('//input[@placeholder="供应商ID"]').send_keys(123)
         self.dr.find_element_by_xpath('//input[@placeholder="公司名称/简称"]').send_keys(123)
         self.dr.find_element_by_xpath('//input[@placeholder="公司法人"]').send_keys(123)
@@ -110,7 +111,7 @@ class handles():
         self.dr.find_element_by_xpath('//span[@text()="草稿"]').click()
         self.dr.find_element_by_xpath('//button[@class="el-button w80 h40 el-button--default el-button--small"]').click()
 
-a = handles('firefox')
+a = handles('chrome')
 a.login()
 time.sleep(4)
 a.choicemod('供应商')
