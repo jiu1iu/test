@@ -1,7 +1,7 @@
 import ddt
 import unittest
 import xlrd
-
+import random
 class excel:
     def __init__(self, excelPath, sheetName="Sheet1"):
         self.data = xlrd.open_workbook(excelPath)
@@ -34,6 +34,3 @@ class excel:
                 j += 1
             return r
 
-
-
-print(excel("E://工作相关//testdata.xlsx").test_data())

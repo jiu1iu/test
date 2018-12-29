@@ -1,6 +1,12 @@
 import unittest
+import logging
 
-a = 0
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+file_handle = logging.FileHandler()
+logging.Formatter()
+logger.addHandler(file_handle)
 
-if a == 1:
-    print('0')
+
+file_handle.close()
+logger.removeHandler(file_handle)

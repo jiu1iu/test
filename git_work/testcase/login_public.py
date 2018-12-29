@@ -3,19 +3,23 @@ New_address = 'https://lxerptest.66123123.com/'
 import sys
 sys.path.append("..")
 from driver.alldriver import dr_handles
+from selenium import webdriver
 import time
 from selenium.webdriver.common.action_chains import ActionChains
 
 
 '''登陆新平台'''
 class handles():
-    def __init__(self, url, driver):
-        self.dr = dr_handles(url, driver)
+    def __init__(self):
+        self.dr = webdriver.Firefox()
+        self.dr.get(New_address)
+        self.dr.maximize_window()
+
 
     '''用户登陆'''
     def login(self):
         self.dr.get(New_address)
-        self.dr.get_element('xpath', './/input[@placeholder="请输入账号"]').clear()
+        self.dr.find_element_by_xpath('.//input[@placeholder="请输入账号"]').clear()
         self.dr.find_element_by_xpath('.//input[@placeholder="请输入账号"]').send_keys('aaa')
         self.dr.find_element_by_xpath('.//input[@placeholder="请输入密码"]').clear()
         self.dr.find_element_by_xpath('.//input[@placeholder="请输入密码"]').send_keys('1')
@@ -62,7 +66,10 @@ class handles():
         self.dr.find_element_by_xpath('.//textarea[@placeholder="字数长度1~1000以内"]').clear()
         self.dr.find_element_by_xpath('.//textarea[@placeholder="字数长度1~1000以内"]').send_keys('1')
         '''地址选择'''
-        self.dr.find_element_by_xpath('.//input[@placeholder="省"]').click()
+        a1 = self.dr.find_element_by_xpath('.//input[@placeholder="省"]')
+        print(a1)
+        self.dr.close()
+
         time.sleep(2)
         a1 = self.dr.find_elements_by_xpath('//ul[@class="el-scrollbar__view el-select-dropdown__list"]/li[@class="el-select-dropdown__item"]')
         if a1[1].is_displayed():
@@ -103,17 +110,15 @@ class handles():
         self.dr.find_element_by_xpath('//input[@placeholder="公司法人"]').send_keys(123)
         self.dr.find_element_by_xpath('//input[@placeholder="供应商等级"]').click()
         time.sleep(2)
-        a1 = self.dr.find_element_by_xpath('//ul[@class="el-scrollbar__view el-select-dropdown__list"]/li[1]')
-        ActionChains(self.dr).move_to_element(a1)
-        a1.click()
+        self.dr.find_element_by_xpath('/html/body/div[2]/div[1]/div[1]/ul/li[3]').click()
         self.dr.find_element_by_xpath('//input[@placeholder="更新状态"]').click()
-        time.sleep(1)
-        self.dr.find_element_by_xpath('//span[@text()="草稿"]').click()
+        time.sleep(2)
+        self.dr.find_element_by_xpath('/html/body/div[3]/div[1]/div[1]/ul/li[3]').click()
         self.dr.find_element_by_xpath('//button[@class="el-button w80 h40 el-button--default el-button--small"]').click()
-
-a = handles('chrome')
+        self.dr.close()
+a = handles()
 a.login()
 time.sleep(4)
 a.choicemod('供应商')
 time.sleep(2)
-a.choicesupplier()
+a.addsupplier()

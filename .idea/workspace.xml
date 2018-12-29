@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c819c9-70e2-4d45-87de-41022d885ccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/git_work/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_work/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_work/config/test_config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_work/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_work/test/test_ddt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_work/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_work/util/load_ini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git_work/report/first_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git_work/testcase/testcase1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git_work/testcase/testcase2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_work/driver/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/driver/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_work/test/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/test/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_work/test/test_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/test/test_ddt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_work/test/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/test/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git_work/testcase/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/testcase/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git_work/testcase/login_public.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/testcase/login_public.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_work/util/findelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/util/findelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_work/util/load_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_work/util/load_ini.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,60 +21,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/gitcode$login_public.coverage" NAME="login_public Coverage Results" MODIFIED="1545295327469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/testcase" />
-    <SUITE FILE_PATH="coverage/gitcode$test_ddt.coverage" NAME="test_ddt Coverage Results" MODIFIED="1545299594614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/test" />
-    <SUITE FILE_PATH="coverage/gitcode$load_ini__1_.coverage" NAME="load_ini (1) Coverage Results" MODIFIED="1545381033797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/util" />
-    <SUITE FILE_PATH="coverage/gitcode$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1545387594270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/test" />
-    <SUITE FILE_PATH="coverage/gitcode$findelement.coverage" NAME="findelement Coverage Results" MODIFIED="1545387143220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/util" />
+    <SUITE FILE_PATH="coverage/gitcode$test_ddt.coverage" NAME="test_ddt Coverage Results" MODIFIED="1545621014293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/test" />
+    <SUITE FILE_PATH="coverage/gitcode$Unittests_for_testcase1_Unittest_case01_test002.coverage" NAME="Unittests for testcase1.Unittest_case01.test002 Coverage Results" MODIFIED="1545645915125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/testcase" />
+    <SUITE FILE_PATH="coverage/gitcode$Unittests_for_testcase1_Unittest_case01.coverage" NAME="Unittests for testcase1.Unittest_case01 Coverage Results" MODIFIED="1545644145787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/testcase" />
+    <SUITE FILE_PATH="coverage/gitcode$add_test_git.coverage" NAME="add_test_git Coverage Results" MODIFIED="1545909609786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/add_test" />
     <SUITE FILE_PATH="coverage/gitcode$load_ini.coverage" NAME="load_ini Coverage Results" MODIFIED="1545375739244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/driver" />
+    <SUITE FILE_PATH="coverage/gitcode$Unittests_for_testcase1_Unittest_case01_test_002.coverage" NAME="Unittests for testcase1.Unittest_case01.test_002 Coverage Results" MODIFIED="1545645120887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/testcase" />
+    <SUITE FILE_PATH="coverage/gitcode$login_public.coverage" NAME="login_public Coverage Results" MODIFIED="1545732807883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/testcase" />
+    <SUITE FILE_PATH="coverage/gitcode$Unittests_in_testcase1_py.coverage" NAME="Unittests in testcase1.py Coverage Results" MODIFIED="1545705393289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/testcase" />
+    <SUITE FILE_PATH="coverage/gitcode$Unittests_for_testcase1_Unittest_case01_test_001.coverage" NAME="Unittests for testcase1.Unittest_case01.test_001 Coverage Results" MODIFIED="1545645143712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/testcase" />
+    <SUITE FILE_PATH="coverage/gitcode$load_ini__1_.coverage" NAME="load_ini (1) Coverage Results" MODIFIED="1545381033797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/util" />
+    <SUITE FILE_PATH="coverage/gitcode$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1545617696021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/test" />
+    <SUITE FILE_PATH="coverage/gitcode$findelement.coverage" NAME="findelement Coverage Results" MODIFIED="1545387143220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/util" />
     <SUITE FILE_PATH="coverage/gitcode$alldriver.coverage" NAME="alldriver Coverage Results" MODIFIED="1545384726829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/git_work/driver" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git_work/testcase/login_public.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="68" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/git_work/test/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="543">
+              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/git_work/util/load_ini.py">
+        <entry file="file://$PROJECT_DIR$/git_work/add_test/add_test_git.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/git_work/config/test_config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/git_work/driver/alldriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="242">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/软件/python3.7.2/Lib/logging/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="512" column="8" selection-start-line="512" selection-start-column="8" selection-end-line="512" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,10 +70,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git_work/util/findelement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/git_work/driver/alldriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/git_work/testcase/testcase1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/git_work/testcase/testcase2.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -94,6 +108,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -105,20 +120,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/git_work/path.py" />
-        <option value="$PROJECT_DIR$/git_work/test/test_ddt.py" />
         <option value="$PROJECT_DIR$/git_work/driver/load_ini.py" />
-        <option value="$PROJECT_DIR$/git_work/testcase/login_public.py" />
         <option value="$PROJECT_DIR$/git_work/config/test_config.ini" />
-        <option value="$PROJECT_DIR$/git_work/util/load_ini.py" />
         <option value="$PROJECT_DIR$/git_work/driver/alldriver.py" />
-        <option value="$PROJECT_DIR$/git_work/util/findelement.py" />
+        <option value="$PROJECT_DIR$/git_work/util/load_ini.py" />
         <option value="$PROJECT_DIR$/git_work/test/test_login.py" />
+        <option value="$PROJECT_DIR$/git_work/util/findelement.py" />
+        <option value="$PROJECT_DIR$/git_work/test/test_ddt.py" />
+        <option value="$PROJECT_DIR$/git_work/testcase/testcase2.py" />
+        <option value="$PROJECT_DIR$/git_work/report/first_case.html" />
+        <option value="$PROJECT_DIR$/git_work/testcase/testcase1.py" />
+        <option value="$PROJECT_DIR$/git_work/testcase/login_public.py" />
+        <option value="$PROJECT_DIR$/git_work/add_test/add_test_git.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="20" />
+    <option name="x" value="101" />
+    <option name="y" value="17" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -128,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +181,12 @@
               <item name="gitcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="gitcode" type="462c0819:PsiDirectoryNode" />
               <item name="git_work" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitcode" type="462c0819:PsiDirectoryNode" />
+              <item name="git_work" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,18 +205,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Ini" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="http.certificates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gitcode\git_work" />
       <recent name="E:\gitcode\git_work\util" />
     </key>
   </component>
@@ -208,8 +235,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_login">
-    <configuration name="alldriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.add_test_git">
+    <configuration name="add_test_git" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gitcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,12 +244,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/driver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/add_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/git_work/driver/alldriver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/git_work/add_test/add_test_git.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findelement" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login_public" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gitcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,12 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/git_work/util/findelement.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/git_work/testcase/login_public.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,79 +280,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_ini (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for testcase1.Unittest_case01.test002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/git_work/util/load_ini.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase1.Unittest_case01.test002&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="load_ini" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for testcase1.Unittest_case01.test_001" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/driver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\gitcode\git_work\util\load_ini.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase1.Unittest_case01.test_001&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in testcase1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/git_work/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/git_work/test/test_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/git_work/testcase/testcase1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_login" />
-        <item itemvalue="Python.findelement" />
-        <item itemvalue="Python.alldriver" />
-        <item itemvalue="Python.load_ini (1)" />
-        <item itemvalue="Python.load_ini" />
+        <item itemvalue="Python.add_test_git" />
+        <item itemvalue="Python.login_public" />
+        <item itemvalue="Python tests.Unittests in testcase1.py" />
+        <item itemvalue="Python tests.Unittests for testcase1.Unittest_case01.test002" />
+        <item itemvalue="Python tests.Unittests for testcase1.Unittest_case01.test_001" />
       </list>
     </recent_temporary>
   </component>
@@ -340,23 +346,60 @@
       <option name="presentableId" value="Default" />
       <updated>1545124539579</updated>
       <workItem from="1545124547172" duration="612000" />
-      <workItem from="1545210288256" duration="39214000" />
+      <workItem from="1545210288256" duration="40195000" />
+      <workItem from="1545613768789" duration="4256000" />
+      <workItem from="1545642761307" duration="2854000" />
+      <workItem from="1545645631842" duration="993000" />
+      <workItem from="1545699717213" duration="241000" />
+      <workItem from="1545701539989" duration="15127000" />
+      <workItem from="1545872211892" duration="8183000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.24 at 17h 59m 23s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase1_Unittest_case01_test002 - 2018.12.24 at 18h 00m 37s.xml">
+      <configuration name="Unittests for testcase1.Unittest_case01.test002" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.24 at 18h 03m 12s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.24 at 18h 04m 27s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testcase1_Unittest_case01_test002 - 2018.12.24 at 18h 05m 15s.xml">
+      <configuration name="Unittests for testcase1.Unittest_case01.test002" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.24 at 18h 05m 40s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.25 at 10h 28m 50s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.25 at 10h 30m 50s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.25 at 10h 34m 56s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcase1_py - 2018.12.25 at 10h 36m 33s.xml">
+      <configuration name="Unittests in testcase1.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39826000" />
+    <option name="totallyTimeSpent" value="72461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.218509" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23714653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25031927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26819924" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,50 +421,25 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/git_work/path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/git_work/path.py" />
     <entry file="file://$PROJECT_DIR$/git_work/driver/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ini">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ini" />
+    <entry file="file://$PROJECT_DIR$/git_work/test/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/git_work/test/test_ddt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="304">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/git_work/util/findelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/git_work/testcase/login_public.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/git_work/util/load_ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -432,22 +450,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/软件/python3.7.2/Lib/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_work/report/first_case.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_work/testcase/login_public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/git_work/driver/alldriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="462">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_work/testcase/testcase1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git_work/test/test_login.py">
+    <entry file="file://$PROJECT_DIR$/git_work/util/load_ini.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="220">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://D:/软件/python3.7.2/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="512" column="8" selection-start-line="512" selection-start-column="8" selection-end-line="512" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_work/add_test/add_test_git.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_work/util/findelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_work/testcase/testcase2.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

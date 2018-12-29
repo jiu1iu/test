@@ -13,7 +13,7 @@ class loadini():
         cf.read(a, 'utf-8')
         return cf
 
-    def get_value(self, key):
-        return self.cf.get('LoginData', key)
+    def get_value(self, key, value):
+        return self.cf.get(key, value)
 
 

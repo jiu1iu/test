@@ -19,22 +19,22 @@ class handles():
         dr.maximize_window()
         return dr
 
-    def user_input(self, key, data):
-        self.get_user_element(key).send_keys(data)
+    def user_input(self, key, value, data):
+        self.get_user_element(key, value).send_keys(data)
 
-    def get_user_element(self, key):
+    def get_user_element(self, key, value):
         find_element = Element(self.dr)
-        user_element = find_element.get_element(key)
+        user_element = find_element.get_element(key, value)
         return user_element
 
     def main(self):
         user_name = 'aaa'
         password = '1'
-        self.get_user_element('username').clear()
-        self.user_input('username', user_name)
-        self.get_user_element('password').clear()
-        self.user_input('password', password)
-        self.get_user_element('button').click()
+        self.get_user_element('LoginData', 'username').clear()
+        self.user_input('LoginData', 'username', user_name)
+        self.get_user_element('LoginData', 'password').clear()
+        self.user_input('LoginData', 'password', password)
+        self.get_user_element('LoginData', 'button').click()
         time.sleep(3)
         self.dr.close()
 
